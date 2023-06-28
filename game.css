@@ -1,0 +1,33 @@
+field {
+    display: block;
+    width: 300px;
+}
+
+line {
+    display: block;
+}
+
+input {
+    width: 20%;
+    box-sizing: border-box;
+}
+
+toolbar {
+    display: block;
+}
+
+input[d-state="hit"] {
+    background-color: green;
+    color: white; 
+
+}
+input[d-state="near"] {
+    background-color: orange;
+    color: white;
+}
+input[d-state="nope"] {
+    background-color: red;
+    color: white;
+}
+
+
